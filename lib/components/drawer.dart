@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../pages/setting_page.dart';
 
 class MyDrawer extends StatelessWidget {
@@ -46,7 +45,6 @@ class MyDrawer extends StatelessWidget {
             leading: const Icon(Icons.settings),
             onTap: () {
               Navigator.pop(context);
-
               Navigator.push(
                 context,
                 MaterialPageRoute(

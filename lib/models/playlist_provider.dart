@@ -29,14 +29,16 @@ class PlayListProvider extends ChangeNotifier {
 //audio player
   final AudioPlayer _audioPlayer = AudioPlayer();
 
+//loop
   bool _isLoopActivated = false;
   bool get isLoopActivated => _isLoopActivated;
 
+//shuffle confirmation
   bool _isShuffleActivated = false;
   bool get isShuffleActivated => _isShuffleActivated;
 
+//shuffle
   List<Song> _shuffledPlaylist = [];
-  int? _currentShuffledIndex;
 
 //duration
   Duration _currentDuration = Duration.zero;
@@ -58,7 +60,7 @@ class PlayListProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-//pause current  song
+//pause current song
   void pause() async {
     await _audioPlayer.pause();
     _isPlaying = false;
@@ -82,6 +84,7 @@ class PlayListProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+//loop the song
   void loop() {
     _isLoopActivated = !_isLoopActivated;
     _audioPlayer.setReleaseMode(
@@ -89,16 +92,15 @@ class PlayListProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+//shuffle the playlist
   void toggleShuffle() {
     _isShuffleActivated = !_isShuffleActivated;
     if (_isShuffleActivated) {
       _shuffledPlaylist = List.of(_playlist)..shuffle();
-      _currentShuffledIndex = 0;
       currentSongIndex =
           _shuffledPlaylist.indexOf(_playlist[_currentSongIndex!]);
     } else {
       _shuffledPlaylist = [];
-      _currentShuffledIndex = null;
     }
     notifyListeners();
   }

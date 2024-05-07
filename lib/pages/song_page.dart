@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:music_player/components/neu_box.dart';
 import 'package:music_player/models/playlist_provider.dart';
@@ -126,7 +125,7 @@ class SongPage extends StatelessWidget {
                                 icon: Icon(
                                   Icons.shuffle,
                                   color: value.isShuffleActivated
-                                      ? Colors.red
+                                      ? Colors.green
                                       : Colors.black,
                                 ),
                               ),
@@ -140,7 +139,7 @@ class SongPage extends StatelessWidget {
                                 icon: Icon(
                                   Icons.repeat,
                                   color: value.isLoopActivated
-                                      ? Colors.red
+                                      ? Colors.green
                                       : Colors.black,
                                 ),
                               ),
