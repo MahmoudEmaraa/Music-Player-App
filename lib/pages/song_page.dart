@@ -133,8 +133,7 @@ class SongPage extends StatelessWidget {
                               //repeat icon
                               IconButton(
                                 onPressed: () {
-                                  value
-                                      .loop(); // Assuming `value` is an instance of `PlayListProvider`
+                                  value.loop();
                                 },
                                 icon: Icon(
                                   Icons.repeat,
