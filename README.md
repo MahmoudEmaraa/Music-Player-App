@@ -1,16 +1,17 @@
-# music_player
 
-A new Flutter project.
+# Music Player App
 
-## Getting Started
+Minimal Music Player App using flutter having light and dark mode.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Light Mode 
+<img src="https://github.com/emaraaa/Music-Player-App/assets/132572069/ab70b3dd-a155-4a27-8af2-f14e844bb53f" width="400" height="800">
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Dark Mode 
+<img src="https://github.com/emaraaa/Music-Player-App/assets/132572069/1ac7e269-50a6-4790-8181-8682d1aaae2c" width="400" height="800">
+
+
+### UI 
+<img src="https://github.com/emaraaa/Music-Player-App/assets/132572069/5c79e5fd-a418-445b-981c-293800058ab7" width="400" height="800">
