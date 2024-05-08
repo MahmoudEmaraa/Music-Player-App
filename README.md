@@ -1,17 +1,15 @@
-
 # Music Player App
 
 Minimal Music Player App using flutter having light and dark mode.
 
+### Light Mode
 
+<img src="https://github.com/MahmoudEmaraa/Music-Player-App/assets/132572069/7809c8e6-e6b9-419f-82e9-a022737ef043" width="400" height="800">
 
-### Light Mode 
-<img src="https://github.com/emaraaa/Music-Player-App/assets/132572069/ab70b3dd-a155-4a27-8af2-f14e844bb53f" width="400" height="800">
+### Dark Mode
 
+<img src="https://github.com/MahmoudEmaraa/Music-Player-App/assets/132572069/9b913dbe-f7b1-4c7f-bf6a-9a871cec5aae" width="400" height="800">
 
-### Dark Mode 
-<img src="https://github.com/emaraaa/Music-Player-App/assets/132572069/1ac7e269-50a6-4790-8181-8682d1aaae2c" width="400" height="800">
+### Song Page
 
-
-### UI 
-<img src="https://github.com/emaraaa/Music-Player-App/assets/132572069/5c79e5fd-a418-445b-981c-293800058ab7" width="400" height="800">
+<img src="https://github.com/MahmoudEmaraa/Music-Player-App/assets/132572069/7653b4c2-326c-4774-bd4c-7853124a3090" width="400" height="800">
